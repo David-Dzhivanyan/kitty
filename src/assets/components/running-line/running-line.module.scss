@@ -1,0 +1,22 @@
+.root {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	gap: 20px;
+}
+
+.line {
+	display: flex;
+	gap: 20px;
+	white-space: nowrap;
+	animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - 20px));
+	}
+}

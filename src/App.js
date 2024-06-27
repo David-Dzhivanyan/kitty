@@ -1,11 +1,13 @@
-import { Button, Container } from 'react-bootstrap';
+import Header from './assets/components/header/Header';
+import Footer from './assets/components/footer/Footer';
+import RunningLine from './assets/components/running-line/RunningLine';
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        <Button>test</Button>
-      </Container>
+      <RunningLine />
+      <Header />
+      <Footer />
     </div>
   );
 }
